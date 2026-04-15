@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
 body {
-    background-color: #999999;
+    background-color: #00ec1479;
     font-family: 'Montserrat', sans-serif;
+    background-image: url('https://i.ebayimg.com/images/g/oysAAOSw5zdkHvOi/s-l400.jpg');
 }
 
 nav {
@@ -10,7 +11,7 @@ nav {
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    color: #fff;
+    color: #001a06;
     display: flex;
     height: 7vw;
     width: 100%;
@@ -28,7 +29,7 @@ nav img {
     border-radius: 1vw;
     cursor: pointer;
     user-select: none;
-    box-shadow: 5px 5px 10px rgba(53, 53, 53, 0.459);
+    box-shadow: 5px 5px 10px rgba(12, 145, 0, 0.459);
 }
 
 nav h1 {
@@ -78,10 +79,10 @@ nav h1 {
 }
  
 .search button {
-    background-color: #fff;
+    background-color: #0044ff;
     border: none;
     border-radius: 0 1vw 1vw 0;
-    color:#222222;
+    color:#6200ff;
     font-size: 1.5vw;
     font-weight: 600;
     padding: 0.8vw 1vw;
@@ -129,7 +130,7 @@ nav h1 {
     margin: 1vw 1vw .4vw 1vw;
     width: 83.8%;
     text-align: left;
-    color: #fff;
+    color: #82a700;
 }
 
 .featured .column {
@@ -161,7 +162,7 @@ nav h1 {
 .featured a {
     display: inline-block;
     position: relative;
-    color: #2c7ffc;
+    color: #00193f;
     text-decoration: none;
 }
     
@@ -181,5 +182,5 @@ nav h1 {
     
     .featured .play-button i {
     font-size: 5vw;
-    text-shadow: 0 0 100px #2c7ffc;
+    text-shadow: 0 0 100px #b700ff;
     }
